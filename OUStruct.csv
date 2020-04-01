@@ -1,0 +1,7 @@
+OUName,OUPath
+ARK,"DC=ARK,DC=se"
+Users,"OU=ARK,DC=ARK,DC=se"
+Computers,"OU=ARK,DC=ARK,DC=se"
+Servers,"OU=ARK,DC=ARK,DC=se"
+Groups,"OU=ARK,DC=ARK,DC=se"
+RDSHost,"OU=Servers,OU=ARK,DC=ARK,DC=se"

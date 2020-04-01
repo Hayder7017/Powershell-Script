@@ -1,0 +1,13 @@
+$oufile= Import-Csv "C:\myscript\OUStruct.csv"
+
+foreach ($ou In $oufile)
+{
+
+$ouname   = $ou.ouname
+$oupath   = $ou.oupath
+
+Write-Output "Creating $ouname..." 
+New-ADOrganizationalUnit -Name "$ouname" -Path "$oupath"
+Write-Host -ForegroundColor Black -BackgroundColor Green "OU $ouname is created in this location $oupath"
+
+}
